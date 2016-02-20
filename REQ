@@ -1,2 +1,3 @@
 django==1.9.2
 pytz==2015.7
+djangorestframework==3.3.2

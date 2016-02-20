@@ -31,7 +31,8 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'book_service.book',
-    'book_service'
+    'book_service',
+    'rest_framework',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -64,7 +65,7 @@ WSGI_APPLICATION = 'book_service.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': ':memory:',
+        'NAME': 'my_db',
     }
 }
 
